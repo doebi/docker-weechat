@@ -12,4 +12,4 @@ it is recommended to use your local .weechat as volume to persist weechat's sett
 `mkdir ~/.weechat`
 
 start the container by running:
-`docker run -v ~/.weechat:/home/user/.weechat -t -i weechat --name=weechat`
+`docker run --name=weechat -v ~/.weechat:/home/user/.weechat -t -i doebi/weechat`
