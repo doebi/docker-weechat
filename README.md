@@ -13,3 +13,6 @@ it is recommended to use your local .weechat as volume to persist weechat's sett
 
 start the container by running:
 `docker run --name=weechat -v ~/.weechat:/home/user/.weechat -t -i doebi/weechat`
+
+exposing relay port
+`docker run --name=weechat -p 9000:9000 -v ~/.weechat:/home/user/.weechat -t -i doebi/weechat`

@@ -21,6 +21,7 @@ RUN dpkg-reconfigure --frontend noninteractive tzdata
 
 # install packages
 RUN apt-get -y install \
+    locales \
     python-potr \
     rxvt-unicode-256color \
     weechat \
