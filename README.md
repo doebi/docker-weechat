@@ -1,6 +1,7 @@
 # docker-weechat
 running weechat in docker
 
+
 ## building
 to build the docker image from scratch run:
 ```
